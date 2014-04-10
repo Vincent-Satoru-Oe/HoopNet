@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB1150BC18F6589C001CD488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1150BB18F6589B001CD488 /* Foundation.framework */; };
+		CB1150BE18F6589C001CD488 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1150BD18F6589C001CD488 /* CoreGraphics.framework */; };
+		CB1150C018F6589C001CD488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1150BF18F6589C001CD488 /* UIKit.framework */; };
+		CB1150C618F6589C001CD488 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1150C418F6589C001CD488 /* InfoPlist.strings */; };
+		CB1150C818F6589C001CD488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1150C718F6589C001CD488 /* main.m */; };
+		CB1150CC18F6589C001CD488 /* hoopNetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1150CB18F6589C001CD488 /* hoopNetAppDelegate.m */; };
+		CB1150CF18F6589C001CD488 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1150CD18F6589C001CD488 /* Main_iPhone.storyboard */; };
+		CB1150D218F6589C001CD488 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1150D018F6589C001CD488 /* Main_iPad.storyboard */; };
+		CB1150D518F6589C001CD488 /* hoopNetMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1150D418F6589C001CD488 /* hoopNetMasterViewController.m */; };
+		CB1150D818F6589C001CD488 /* hoopNetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1150D718F6589C001CD488 /* hoopNetDetailViewController.m */; };
+		CB1150DA18F6589C001CD488 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1150D918F6589C001CD488 /* Images.xcassets */; };
+		CB1150E118F6589C001CD488 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1150E018F6589C001CD488 /* XCTest.framework */; };
+		CB1150E218F6589C001CD488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1150BB18F6589B001CD488 /* Foundation.framework */; };
+		CB1150E318F6589C001CD488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1150BF18F6589C001CD488 /* UIKit.framework */; };
+		CB1150EB18F6589C001CD488 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1150E918F6589C001CD488 /* InfoPlist.strings */; };
+		CB1150ED18F6589C001CD488 /* HoopNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1150EC18F6589C001CD488 /* HoopNetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB1150E418F6589C001CD488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB1150B018F6589B001CD488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB1150B718F6589B001CD488;
+			remoteInfo = HoopNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB1150B818F6589B001CD488 /* HoopNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoopNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1150BB18F6589B001CD488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB1150BD18F6589C001CD488 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB1150BF18F6589C001CD488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB1150C318F6589C001CD488 /* HoopNet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoopNet-Info.plist"; sourceTree = "<group>"; };
+		CB1150C518F6589C001CD488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB1150C718F6589C001CD488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB1150C918F6589C001CD488 /* HoopNet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoopNet-Prefix.pch"; sourceTree = "<group>"; };
+		CB1150CA18F6589C001CD488 /* hoopNetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hoopNetAppDelegate.h; sourceTree = "<group>"; };
+		CB1150CB18F6589C001CD488 /* hoopNetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hoopNetAppDelegate.m; sourceTree = "<group>"; };
+		CB1150CE18F6589C001CD488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CB1150D118F6589C001CD488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CB1150D318F6589C001CD488 /* hoopNetMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hoopNetMasterViewController.h; sourceTree = "<group>"; };
+		CB1150D418F6589C001CD488 /* hoopNetMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hoopNetMasterViewController.m; sourceTree = "<group>"; };
+		CB1150D618F6589C001CD488 /* hoopNetDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hoopNetDetailViewController.h; sourceTree = "<group>"; };
+		CB1150D718F6589C001CD488 /* hoopNetDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hoopNetDetailViewController.m; sourceTree = "<group>"; };
+		CB1150D918F6589C001CD488 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB1150DF18F6589C001CD488 /* HoopNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoopNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1150E018F6589C001CD488 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB1150E818F6589C001CD488 /* HoopNetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoopNetTests-Info.plist"; sourceTree = "<group>"; };
+		CB1150EA18F6589C001CD488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB1150EC18F6589C001CD488 /* HoopNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoopNetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB1150B518F6589B001CD488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1150BE18F6589C001CD488 /* CoreGraphics.framework in Frameworks */,
+				CB1150C018F6589C001CD488 /* UIKit.framework in Frameworks */,
+				CB1150BC18F6589C001CD488 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1150DC18F6589C001CD488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1150E118F6589C001CD488 /* XCTest.framework in Frameworks */,
+				CB1150E318F6589C001CD488 /* UIKit.framework in Frameworks */,
+				CB1150E218F6589C001CD488 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1150AF18F6589B001CD488 = {
+			isa = PBXGroup;
+			children = (
+				CB1150C118F6589C001CD488 /* HoopNet */,
+				CB1150E618F6589C001CD488 /* HoopNetTests */,
+				CB1150BA18F6589B001CD488 /* Frameworks */,
+				CB1150B918F6589B001CD488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1150B918F6589B001CD488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1150B818F6589B001CD488 /* HoopNet.app */,
+				CB1150DF18F6589C001CD488 /* HoopNetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1150BA18F6589B001CD488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB1150BB18F6589B001CD488 /* Foundation.framework */,
+				CB1150BD18F6589C001CD488 /* CoreGraphics.framework */,
+				CB1150BF18F6589C001CD488 /* UIKit.framework */,
+				CB1150E018F6589C001CD488 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB1150C118F6589C001CD488 /* HoopNet */ = {
+			isa = PBXGroup;
+			children = (
+				CB1150CA18F6589C001CD488 /* hoopNetAppDelegate.h */,
+				CB1150CB18F6589C001CD488 /* hoopNetAppDelegate.m */,
+				CB1150CD18F6589C001CD488 /* Main_iPhone.storyboard */,
+				CB1150D018F6589C001CD488 /* Main_iPad.storyboard */,
+				CB1150D318F6589C001CD488 /* hoopNetMasterViewController.h */,
+				CB1150D418F6589C001CD488 /* hoopNetMasterViewController.m */,
+				CB1150D618F6589C001CD488 /* hoopNetDetailViewController.h */,
+				CB1150D718F6589C001CD488 /* hoopNetDetailViewController.m */,
+				CB1150D918F6589C001CD488 /* Images.xcassets */,
+				CB1150C218F6589C001CD488 /* Supporting Files */,
+			);
+			path = HoopNet;
+			sourceTree = "<group>";
+		};
+		CB1150C218F6589C001CD488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1150C318F6589C001CD488 /* HoopNet-Info.plist */,
+				CB1150C418F6589C001CD488 /* InfoPlist.strings */,
+				CB1150C718F6589C001CD488 /* main.m */,
+				CB1150C918F6589C001CD488 /* HoopNet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB1150E618F6589C001CD488 /* HoopNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB1150EC18F6589C001CD488 /* HoopNetTests.m */,
+				CB1150E718F6589C001CD488 /* Supporting Files */,
+			);
+			path = HoopNetTests;
+			sourceTree = "<group>";
+		};
+		CB1150E718F6589C001CD488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1150E818F6589C001CD488 /* HoopNetTests-Info.plist */,
+				CB1150E918F6589C001CD488 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB1150B718F6589B001CD488 /* HoopNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1150F018F6589C001CD488 /* Build configuration list for PBXNativeTarget "HoopNet" */;
+			buildPhases = (
+				CB1150B418F6589B001CD488 /* Sources */,
+				CB1150B518F6589B001CD488 /* Frameworks */,
+				CB1150B618F6589B001CD488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoopNet;
+			productName = HoopNet;
+			productReference = CB1150B818F6589B001CD488 /* HoopNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB1150DE18F6589C001CD488 /* HoopNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1150F318F6589C001CD488 /* Build configuration list for PBXNativeTarget "HoopNetTests" */;
+			buildPhases = (
+				CB1150DB18F6589C001CD488 /* Sources */,
+				CB1150DC18F6589C001CD488 /* Frameworks */,
+				CB1150DD18F6589C001CD488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1150E518F6589C001CD488 /* PBXTargetDependency */,
+			);
+			name = HoopNetTests;
+			productName = HoopNetTests;
+			productReference = CB1150DF18F6589C001CD488 /* HoopNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1150B018F6589B001CD488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = hoopNet;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Base;
+				TargetAttributes = {
+					CB1150DE18F6589C001CD488 = {
+						TestTargetID = CB1150B718F6589B001CD488;
+					};
+				};
+			};
+			buildConfigurationList = CB1150B318F6589B001CD488 /* Build configuration list for PBXProject "HoopNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB1150AF18F6589B001CD488;
+			productRefGroup = CB1150B918F6589B001CD488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB1150B718F6589B001CD488 /* HoopNet */,
+				CB1150DE18F6589C001CD488 /* HoopNetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB1150B618F6589B001CD488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1150D218F6589C001CD488 /* Main_iPad.storyboard in Resources */,
+				CB1150DA18F6589C001CD488 /* Images.xcassets in Resources */,
+				CB1150CF18F6589C001CD488 /* Main_iPhone.storyboard in Resources */,
+				CB1150C618F6589C001CD488 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1150DD18F6589C001CD488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1150EB18F6589C001CD488 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB1150B418F6589B001CD488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1150CC18F6589C001CD488 /* hoopNetAppDelegate.m in Sources */,
+				CB1150D518F6589C001CD488 /* hoopNetMasterViewController.m in Sources */,
+				CB1150C818F6589C001CD488 /* main.m in Sources */,
+				CB1150D818F6589C001CD488 /* hoopNetDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1150DB18F6589C001CD488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1150ED18F6589C001CD488 /* HoopNetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB1150E518F6589C001CD488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB1150B718F6589B001CD488 /* HoopNet */;
+			targetProxy = CB1150E418F6589C001CD488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB1150C418F6589C001CD488 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1150C518F6589C001CD488 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB1150CD18F6589C001CD488 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1150CE18F6589C001CD488 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1150D018F6589C001CD488 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1150D118F6589C001CD488 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1150E918F6589C001CD488 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1150EA18F6589C001CD488 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB1150EE18F6589C001CD488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB1150EF18F6589C001CD488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1150F118F6589C001CD488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoopNet/HoopNet-Prefix.pch";
+				INFOPLIST_FILE = "HoopNet/HoopNet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB1150F218F6589C001CD488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoopNet/HoopNet-Prefix.pch";
+				INFOPLIST_FILE = "HoopNet/HoopNet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB1150F418F6589C001CD488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HoopNet.app/HoopNet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoopNet/HoopNet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HoopNetTests/HoopNetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB1150F518F6589C001CD488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HoopNet.app/HoopNet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoopNet/HoopNet-Prefix.pch";
+				INFOPLIST_FILE = "HoopNetTests/HoopNetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1150B318F6589B001CD488 /* Build configuration list for PBXProject "HoopNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1150EE18F6589C001CD488 /* Debug */,
+				CB1150EF18F6589C001CD488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1150F018F6589C001CD488 /* Build configuration list for PBXNativeTarget "HoopNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1150F118F6589C001CD488 /* Debug */,
+				CB1150F218F6589C001CD488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB1150F318F6589C001CD488 /* Build configuration list for PBXNativeTarget "HoopNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1150F418F6589C001CD488 /* Debug */,
+				CB1150F518F6589C001CD488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1150B018F6589B001CD488 /* Project object */;
+}
